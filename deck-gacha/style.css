@@ -1,0 +1,101 @@
+body{
+    background:#1a1a1a;
+    color:white;
+    font-family:sans-serif;
+    text-align:center;
+}
+
+button{
+    padding:10px 20px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+th, td{
+    border: 1px solid #444;
+    padding: 8px;
+}
+
+th{
+    background: #ff8800;
+    color: white;
+}
+
+td{
+    background: #222;
+}
+#selectedClass{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+}
+
+/* エルフ */
+.elf{
+    color: #4CAF50;
+    text-shadow: 0 0 20px #4CAF50;
+}
+
+/* ロイヤル */
+.royal{
+    color: #FFD700;
+    text-shadow: 0 0 20px #FFD700;
+}
+
+/* ウィッチ */
+.witch{
+    color: #9C27B0;
+    text-shadow: 0 0 20px #9C27B0;
+}
+
+/* ドラゴン */
+.dragon{
+    color: #F44336;
+    text-shadow: 0 0 20px #F44336;
+}
+
+/* ナイトメア */
+.nightmare{
+    color: #673AB7;
+    text-shadow: 0 0 20px #673AB7;
+}
+
+/* ビショップ */
+.bishop{
+    color: #FFFFFF;
+    text-shadow: 0 0 20px #FFFFFF;
+}
+
+/* ネメシス */
+.nemesis{
+    color: #00BCD4;
+    text-shadow: 0 0 20px #00BCD4;
+}
+body{
+    background: #111;
+}
+
+.notice{
+    font-family:
+        "Yu Mincho",
+        "Hiragino Mincho ProN",
+        "MS PMincho",
+        serif;
+
+    font-size: 34px;
+    color: #ff0000;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 60px;
+}
