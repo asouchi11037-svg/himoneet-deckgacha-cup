@@ -624,3 +624,40 @@ body {
 
     border-bottom:2px solid #ff8800;
 }
+@media screen and (max-width: 768px){
+
+    .main{
+        flex-direction:column;
+    }
+
+    .sidebar{
+        width:100%;
+        height:auto;
+        position:static;
+        border-right:none;
+        border-bottom:2px solid #ff8800;
+    }
+
+    .content{
+        width:100%;
+        box-sizing:border-box;
+    }
+
+    .header h1{
+        font-size:40px;
+    }
+
+    .swb{
+        font-size:22px;
+    }
+
+    .fixedGachaButton{
+        width:80%;
+        height:60px;
+        font-size:22px;
+    }
+
+    .playerGrid{
+        grid-template-columns:1fr;
+    }
+}
